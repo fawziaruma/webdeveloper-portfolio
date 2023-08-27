@@ -1,0 +1,38 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color:  #FD6E0A;
+}
+.btn-primary{
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 35px;
+    color: white;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50;
+}
+nav li a{
+    text-decoration: none;
+    color: #181818;
+}
